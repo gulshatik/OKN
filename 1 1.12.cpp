@@ -1,10 +1,10 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "Rus");
-	size_t n;//как инт, но только положительные значения
+	size_t n;
 	char str[100];
 	cin >> str;
 	n = strlen(str);
@@ -15,9 +15,9 @@ int main()
 			m--;
 		}
 		else {
-			cout << " не является паллиндромом";
+			cout << " РЅРµ СЏРІР»СЏРµС‚СЃСЏ РїР°Р»Р»РёРЅРґСЂРѕРјРѕРј";
 			return 0;
 		}
 	}
-	cout<<"является паллиндромом";
-}*/
+	cout<<"СЏРІР»СЏРµС‚СЃСЏ РїР°Р»Р»РёРЅРґСЂРѕРјРѕРј";
+}
